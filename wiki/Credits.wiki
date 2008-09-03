@@ -7,7 +7,7 @@ Below credits are given to third-party components that the NbJGit module uses. H
 
 === The Mercurial plugin ===
 
-Most of the core plugin code in NbGit is based on code from the Mercurial and Subversion plugins.
+Most of the core plugin code in !NbGit is based on code from the Mercurial and Subversion plugins.
 
 The Mercurial and Subversion code is dual licensed under the Common Development and Distribution License("CDDL") and the GNU General Public License Version 2 only ("GPL") with the "Classpath" exception.
 
