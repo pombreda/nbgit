@@ -7,7 +7,7 @@ So you want to contribute? Below are some useful resources of where to start and
 
 JGit:
 
- * [http://code.google.com/docreader/#p=egit&s=egit&t=JGitTutorial Tutorial]
+ * [http://code.google.com/docreader/#p=egit&s=egit&t=JGitTutorial Tutorial] (work in progress)
  * ... and of course the javadoc which has hints on best practices.
 
 Document about the !NetBeans VCS API and standards:
