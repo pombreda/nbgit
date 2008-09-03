@@ -5,7 +5,7 @@
 
 News about features and issues that have been resolved.
 
-=== NbGit v0.1 ===
+=== nbgit v0.1 ===
 
 New features:
 
@@ -13,5 +13,6 @@ New features:
  * status: list the status of changed files.
  * diff: view changes to files (side-by-side).
  * commit: commit a selected range of files.
+ * log: search and view revisions.
  * update: revert individual file changes.
  * properties: change project and repository specific options (i.e. user.name and user.email).
