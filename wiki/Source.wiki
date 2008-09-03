@@ -2,7 +2,11 @@
 
 The source code is available either as [http://code.google.com/p/nbgit/downloads/list?q=label:Type-Source source code archives] or using one of the repositories listed below. Generally, the released archives are more stable, but may lack important features and fixes. If you want to keep in sync with the latest source code, tracking one of the repository below is recommended. It also allows you to easily keep track of local changes and make contributions to the project.
 
-*Jonas' git repository:*
+*Alex' repository:*
+
+  The repository is hosted at http://github.com/myabc/nbgit/tree/master
+
+*Jonas' repository:*
 
   This git repository serves as an integration place for new features. It is hosted by [http://repo.or.cz/], where you can [http://repo.or.cz/w/nbjgit.git?a=tree browse the code] and [http://repo.or.cz/w/nbjgit.git view recent changes].
 
