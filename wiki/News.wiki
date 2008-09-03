@@ -5,7 +5,7 @@
 
 News about features and issues that have been resolved.
 
-=== NbJGit v0.1 ===
+=== NbGit v0.1 ===
 
 New features:
 

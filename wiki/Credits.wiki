@@ -3,7 +3,7 @@
 
 = Credits and Legal Notes =
 
-Below credits are given to third-party components that the NbJGit module uses. Here you will also find information about their individual terms of licensing.
+Below credits are given to third-party components that the NbGit module uses. Here you will also find information about their individual terms of licensing.
 
 === The Mercurial plugin ===
 

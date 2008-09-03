@@ -1,12 +1,12 @@
 #summary Repositories and released archives
 
-The source code is available either as [http://code.google.com/p/nbjgit/downloads/list?q=label:Type-Source source code archives] or using one of the repositories listed below. Generally, the released archives are more stable, but may lack important features and fixes. If you want to keep in sync with the latest source code, tracking one of the repository below is recommended. It also allows you to easily keep track of local changes and make contributions to the project.
+The source code is available either as [http://code.google.com/p/nbgit/downloads/list?q=label:Type-Source source code archives] or using one of the repositories listed below. Generally, the released archives are more stable, but may lack important features and fixes. If you want to keep in sync with the latest source code, tracking one of the repository below is recommended. It also allows you to easily keep track of local changes and make contributions to the project.
 
 *Master git repository:*
 
-    The master git repository serves as the main integration place for new feature. It is hosted by [http://repo.or.cz/], where you can [http://repo.or.cz/w/nbjgit.git?a=tree browse the code] and [http://repo.or.cz/w/nbjgit.git view recent changes].
+    The master git repository serves as the main integration place for new feature. It is hosted by [http://repo.or.cz/], where you can [http://repo.or.cz/w/nbgit.git?a=tree browse the code] and [http://repo.or.cz/w/nbgit.git view recent changes].
 
     Use this command to anonymously clone and check out the latest project source code for the master repository:
 {{{
-    git clone git://repo.or.cz/nbjgit.git
+    git clone git://repo.or.cz/nbgit.git
 }}}

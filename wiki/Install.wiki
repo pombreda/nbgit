@@ -9,7 +9,7 @@ Before installing or updating make sure you read the [News release notes] and [I
 
 The easiest way to install is to install the plugin from a .nbm file:
 
- * [http://code.google.com/p/nbjgit/downloads/list?q=label:Type-Nbm List of .nbm files available for download]
+ * [http://code.google.com/p/nbgit/downloads/list?q=label:Type-Nbm List of .nbm files available for download]
 
 After downloading the .nbm file do the following:
 
@@ -22,12 +22,12 @@ After downloading the .nbm file do the following:
 
 To install from source first get the source code either from a git repository or from a source code archive.
 
- * [http://code.google.com/p/nbjgit/downloads/list?q=label:Type-Source List of source code archives available for download]
+ * [http://code.google.com/p/nbgit/downloads/list?q=label:Type-Source List of source code archives available for download]
  
- * [http://code.google.com/p/nbjgit/wiki/Source List of versioned repositories]
+ * [http://code.google.com/p/nbgit/wiki/Source List of versioned repositories]
 
 Then follow these steps:
 
  # Open the project using the _File > Open Project_ wizard.
- # Optionally but highly recommended, right click on the nbjgit project and select _Run_ to test the plugin.
- # Right click on the nbjgit project and select _Install/Reload in Development IDE_.
+ # Optionally but highly recommended, right click on the nbgit project and select _Run_ to test the plugin.
+ # Right click on the nbgit project and select _Install/Reload in Development IDE_.

@@ -17,8 +17,8 @@ Known issues that are deemed worthy is listed here. Others can be found in the i
 
 Did you find a bug? Got an idea for a must-have feature? Want to star an issue and share your opinion about what missing feature is most important to you?
 
- * [http://code.google.com/p/nbjgit/issues/entry Report an issue]
+ * [http://code.google.com/p/nbgit/issues/entry Report an issue]
 
- * [http://code.google.com/p/nbjgit/issues/advsearch Search issues]
+ * [http://code.google.com/p/nbgit/issues/advsearch Search issues]
 
- * [http://code.google.com/p/nbjgit/issues/ View all issues in the issue tracker]
+ * [http://code.google.com/p/nbgit/issues/ View all issues in the issue tracker]
