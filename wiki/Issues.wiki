@@ -1,0 +1,24 @@
+#summary Issues and Bug Reporting
+#labels Manual
+
+= Issues and Bug Reporting =
+
+The module is far from complete. Below some of the known problems are listed along with how to report bugs.
+
+=== Known Issues ===
+
+Known issues that are deemed worthy is listed here. Others can be found in the issue tracker.
+
+ * No way to ignore files that are not being tracked (issue 3)
+
+ * The status information is not always updated correctly (issue 12)
+
+=== Bug Reporting ===
+
+Did you find a bug? Got an idea for a must-have feature? Want to star an issue and share your opinion about what missing feature is most important to you?
+
+ * [http://code.google.com/p/nbjgit/issues/entry Report an issue]
+
+ * [http://code.google.com/p/nbjgit/issues/advsearch Search issues]
+
+ * [http://code.google.com/p/nbjgit/issues/ View all issues in the issue tracker]

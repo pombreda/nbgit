@@ -1,0 +1,17 @@
+#summary Information about releases.
+#labels Manual,Featured
+
+= Release Notes =
+
+News about features and issues that have been resolved.
+
+=== NbJGit v0.1 ===
+
+New features:
+
+ * init: create a new git repository.
+ * status: list the status of changed files.
+ * diff: view changes to files (side-by-side).
+ * commit: commit a selected range of files.
+ * update: revert individual file changes.
+ * properties: change project and repository specific options (i.e. user.name and user.email).

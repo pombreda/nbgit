@@ -1,0 +1,19 @@
+#summary Index terms
+#labels Deprecated,Docreader
+
+ * About
+ * Commit
+ * Credits
+ * Diff
+ * EGit
+ * Install
+ * JGit
+ * License
+ * Log
+ * NbGit
+ * NetBeans
+ * Release notes
+ * Status
+ * Update
+ * User email
+ * User name

@@ -1,0 +1,8 @@
+#summary Table of contents
+#labels Deprecated,Docreader
+
+ * [About About Git]
+ * [News Release Notes]
+ * [Issues Issues and Bug Reporting]
+ * [Install Installing and Updating]
+ * [Credits Credits and Legal Notes]

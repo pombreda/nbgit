@@ -1,0 +1,33 @@
+#summary Instruction on how to install and update the plugin
+#labels Manual,Featured
+
+= Installing and Updating =
+
+Before installing or updating make sure you read the [News release notes] and [Issues list of known issues].
+
+=== Installing and updating using !NetBeans module archives ===
+
+The easiest way to install is to install the plugin from a .nbm file:
+
+ * [http://code.google.com/p/nbjgit/downloads/list?q=label:Type-Nbm List of .nbm files available for download]
+
+After downloading the .nbm file do the following:
+
+ # Open the _Tools > Plugins_ dialog.
+ # Choose the _Downloaded_ tab.
+ # Press the _Add Plugins..._ button and specify the path to the downloaded .nbm file.
+ # Click _Install_.
+
+=== Installing and updating from source ===
+
+To install from source first get the source code either from a git repository or from a source code archive.
+
+ * [http://code.google.com/p/nbjgit/downloads/list?q=label:Type-Source List of source code archives available for download]
+ 
+ * [http://code.google.com/p/nbjgit/wiki/Source List of versioned repositories]
+
+Then follow these steps:
+
+ # Open the project using the _File > Open Project_ wizard.
+ # Optionally but highly recommended, right click on the nbjgit project and select _Run_ to test the plugin.
+ # Right click on the nbjgit project and select _Install/Reload in Development IDE_.

@@ -1,0 +1,42 @@
+#summary Attributes to used third-party components.
+#labels Manual,Featured
+
+= Credits and Legal Notes =
+
+Below credits are given to third-party components that the NbJGit module uses. Here you will also find information about their individual terms of licensing.
+
+=== The Mercurial and !NbGit plugins ===
+
+Most of the core plugin code in NbJGit is based on code from NbGit (a git CLI-based NetBeans plugin), which in terms borrows its code from the Mercurial and Subversion plugins.
+
+The Mercurial and Subversion code is dual licensed under the Common Development and Distribution License("CDDL") and the GNU General Public License Version 2 only ("GPL") with the "Classpath" exception. !NbGit is licensed under the GNU General Public License Version 2 only ("GPL") with the "Classpath" exception.
+
+ * [http://gitorious.org/projects/nbgit The NbGit project]
+
+ * [http://www.netbeans.org/cddl-gplv2.html The CDDL and GPLv2 license]
+
+=== JGit / EGit ===
+
+JGit is a pure Java implementation of Git. The library is what makes it possible for NbJGit to be a truely cross platform, easy-to-install !NetBeans plugin. NbJGit's sibling project EGit, an Eclipse plugin, along with the JGit example programs has served as an excellent source of inspiration for working with JGit. Thanks to Robin Rosenberg and Shawn O. Pearce for their comments.
+
+JGit is distributed under a BSD-style license. The license is available in the source repository as `release/modules/ext/org-spearce-jgit.LICENSE.txt. EGit is distributed under the Eclipse Public License v1.0.
+
+ * [http://code.google.com/p/egit/ More info about JGit/EGit]
+
+ * [http://repo.or.cz/w/egit.git?a=blob;f=org.spearce.jgit/LICENSE;hb=HEAD The specific license for JGit]
+
+=== JSch ===
+
+The SSH transport support in JGit uses JSch. To easy installation the version distributed with the JGit/EGit project is included in this project. However, NetBeans seem to include its own JSch jar file so it might be possible to remove this dependency in the future.
+
+JSch is distributed under a BSD-style license. The license is available in the source repository as `release/modules/ext/com-jcraft-jsch.LICENSE.txt`.
+
+=== Git Icon ===
+
+The Git icon used for "branding" the status and history tabs is made by Henrik Nyh.
+
+Regarding license, the blog post that announced this alternative logo for Git states that anyone is "Free to modify and redistribute with due credit, and obviously free to use".
+
+ * [http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon/ The blog post announcing the alternative logo]
+ 
+ * [http://git.or.cz/gitwiki/GitRelatedLogos Other versions and git related logos]
