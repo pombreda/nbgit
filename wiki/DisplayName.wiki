@@ -1,3 +1,3 @@
 #summary Display name for Google documentation reader
 #labels Deprecated,Docreader
-NbGit
+!NbGit
