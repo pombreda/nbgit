@@ -4,7 +4,7 @@ This introduction will help you get started with coding and contributing by givi
 
 == The Interface to !NetBeans ==
 
-Below the parts of the module responsible for interfacing with !NetBeans are presented. It also covers how the module hooks into !NetBeans. If you are already familiar with NetBeans versioning plugins you can skip this section.
+Below the parts of the module responsible for interfacing with !NetBeans are presented. It also covers how the module hooks into !NetBeans. If you are already familiar with !NetBeans versioning plugins you can skip this section.
 
 The NetBeans versioning layer is comprised of two modules: 
  
@@ -18,7 +18,7 @@ The NetBeans versioning layer is comprised of two modules:
 
 The SPI module makes heavy use of `java.io.File` class as a pointer to resources, especially for representing the current state or context that the VCS module should work on. A context is given in the VCSContext class, which contains information about which project files and directories a user has selected. As explained below, this allows for example the status view to only show the files the user are interested in.
 
-=== The Main Entry Point (VersioningSystem) ===
+=== The Main Entry Point (!VersioningSystem) ===
 
 The VCS module provides a class which has some basic utility functions, such as resolving a File instance into the File of the repository that manages it (getTopmostManagedAncestor) and getting the last original version of a file in the working tree for showing diffs in the editor (getOriginalFile). It also provides getters for the classes VCSAnnotator and VCSIntercepter.
 
