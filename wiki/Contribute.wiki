@@ -5,6 +5,8 @@ So you want to contribute? Below are some useful resources of where to start and
 
 === Developer Resources ===
 
+First, read the [CodeIntro introduction] to the code.
+
 JGit:
 
  * [http://code.google.com/docreader/#p=egit&s=egit&t=JGitTutorial Tutorial] (work in progress)
