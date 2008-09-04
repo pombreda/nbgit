@@ -1,5 +1,21 @@
-#summary Introduction to the code and NetBeans VCS plugins.
+#summary Introduction to the code.
 
 = Getting Started with the nbgit Code =
 
 This introduction will help you get started with coding and contributing by giving you an overview of how nbgit works and how the code is organized. Be sure to read the introduction to [CodeVCSIntro how nbgit interfaces with NetBeans].
+
+== The General Code Structure ==
+
+The code can be divided into the core parts, the UI, resources, and utilities.
+
+*The core code:*
+   The core code does all the dirty work of providing the parts for integrating with !NetBeans (the !GitVCS, !GitAnnotator, and !GitInterceptor classes). It also has support for getting and updating the module wide configurations, such as the name and email users can specify in the _Tools > Options_ dialog. Finally, the core code is where classes (!StatusCache and !StatusInfo) for maintaining and querying status related information are located.
+
+*The user interface:*
+   The UI code is located in the `.ui` subpackage and contains code that are accessed via actions in the menu.
+
+*Resources:*
+   All the icons and files for hooking in the !NetBeans menu and help systems are located under `.resources`.
+
+*Utilities:*
+   Various utilities can be found in the `.util` subpackage.
