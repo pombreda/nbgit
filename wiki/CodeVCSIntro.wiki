@@ -14,7 +14,7 @@ The !NetBeans versioning layer is comprised of two modules:
 
 == The Current State (VCSContext) ==
 
-The SPI module makes heavy use of `java.io.File` class as a pointer to resources, especially for representing the current state or context that the VCS module should work on. A context is given in the VCSContext class, which contains information about which project files and directories a user has selected. As explained below, this allows for example the status view to only show the files the user are interested in.
+The SPI module makes heavy use of `java.io.File` class as a pointer to resources, especially for representing the current state or context that the VCS module should work on. A context is given in the VCSContext class, which contains information about the particular files and directories that are of interest. For the context menu shown when a user right clicks in the _Projects_ window the context will contain the file or directory which has been selected. This allows for example the status view to only show the files the user are interested in.
 
 == The Main Entry Point (!VersioningSystem) ==
 
