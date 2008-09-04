@@ -6,7 +6,7 @@ This introduction will help you get started with coding and contributing by givi
 
 Below the parts of the module responsible for interfacing with !NetBeans are presented. It also covers how the module hooks into !NetBeans. If you are already familiar with !NetBeans versioning plugins you can skip this section.
 
-The NetBeans versioning layer is comprised of two modules: 
+The !NetBeans versioning layer is comprised of two modules: 
  
 `org.netbeans.modules.versioning.spi`:
    a service provider interface (SPI) module with classes VCS modules can extend and use and,
