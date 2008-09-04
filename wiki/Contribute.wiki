@@ -5,7 +5,7 @@ So you want to contribute? Below are some useful resources of where to start and
 
 === Developer Resources ===
 
-First, read the [CodeIntro introduction] to the code.
+First, read the [CodeVCSIntro introduction to NetBeans VCS modules] and the [CodeIntro introduction to the code].
 
 JGit:
 
