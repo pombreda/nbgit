@@ -1,4 +1,4 @@
-#summary What options control the behavior of nbgit.
+#summary How to configure nbgit.
 #labels Manual
 
 = Module and Repository Options =
