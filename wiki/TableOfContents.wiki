@@ -1,7 +1,8 @@
 #summary Table of contents
-#labels Deprecated,Docreader
+#labels Docreader
 
  * [About About Git]
+ * [Options Module and Repository Options]
  * [News Release Notes]
  * [Issues Issues and Bug Reporting]
  * [Install Installing and Updating]
