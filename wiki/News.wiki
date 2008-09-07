@@ -1,4 +1,4 @@
-#summary Information about releases.
+﻿#summary Information about releases.
 #labels Manual,Featured
 
 = Release Notes =
@@ -15,4 +15,9 @@ New features:
  * commit: commit a selected range of files.
  * log: search and view revisions.
  * update: revert individual file changes.
- * properties: change project and repository specific options (i.e. user.name and user.email).
+ * properties: change repository specific options (i.e. user.name and user.email).
+
+Resolved issues:
+
+ * Prefill the history summary view when opened (issue 5)
+ * Optionally insert Signed-off-by line in commit messages (issue 7)

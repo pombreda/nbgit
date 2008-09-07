@@ -1,4 +1,4 @@
-#summary Developer resources and how to contribute code
+﻿#summary Developer resources and how to contribute code
 #labels Featured
 
 So you want to contribute? Below are some useful resources of where to start and what to consider before submitting your changes.
@@ -22,7 +22,7 @@ Other !NetBeans resources:
 
  * The [http://qa.netbeans.org/bugzilla/dashboards/top-voted.html top voted] [http://www.netbeans.org/issues/show_bug.cgi?id=131531 "Git VCS support"] issue
  * http://wiki.netbeans.org/NetBeansDeveloperFAQ
- * Issue [http://www.netbeans.org/issues/show_bug.cgi?id=142079 142079] and [http://www.netbeans.org/issues/show_bug.cgi?id=143966 143966] related to porting to the upcoming NetBeans 6.5 
+ * Issue [http://www.netbeans.org/issues/show_bug.cgi?id=142079 142079] and [http://www.netbeans.org/issues/show_bug.cgi?id=143966 143966] on upgrading modules to work in !NetBeans 6.5.
 
 === Contributing Code and Licensing ===
 
