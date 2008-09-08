@@ -9,15 +9,17 @@ News about features and issues that have been resolved.
 
 New features:
 
- * init: create a new git repository.
- * status: list the status of changed files.
- * diff: view changes to files (side-by-side).
- * commit: commit a selected range of files.
- * log: search and view revisions.
- * update: revert individual file changes.
- * properties: change repository specific options (i.e. user.name and user.email).
+ * init: Create a new git repository.
+ * status: List the status of changed files.
+ * diff: View changes to files (side-by-side).
+ * commit: Commit a selected range of files.
+ * log: Search and view revisions.
+ * update: Revert individual file changes.
+ * properties: Change repository specific options (i.e. user.name and user.email).
+ * custom: User defined commands (e.g. to open gitk). (issue 16)
 
 Resolved issues:
 
- * Prefill the history summary view when opened (issue 5)
- * Optionally insert Signed-off-by line in commit messages (issue 7)
+ * Prefill the history summary view when opened. (issue 5)
+ * Optionally insert Signed-off-by line in commit messages. (issue 7)
+ * Reorder class path extensions to allow nbgit to be opened in NetBeans 6.5beta. (issue 14)
