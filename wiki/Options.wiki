@@ -23,3 +23,20 @@ Some open-source projects require that developers sign off on their patches as a
 === Update Options ===
 
 When reverting a file to a previous version, you can optionally choose to save the modified file using the prefix `.orig`. The default setting can be set in the options dialog and customized in the revert dialog.
+
+=== Custom Actions ===
+
+Custom actions are user defined commands that can be configured and run via the Git main menu. The general goal is to provide a temporary solution to some of the missing pieces of nbgit. Custom actions can be created using the wizard available via the _Custom Actions > New Action..._ item in the Git menu.
+
+Each action definition consists of an action name, path to binary or script, arguments (which can contain replaceable tokens) and a handful of options controlling whether to show output or not. For example a use can define a "Gitk All Branches" action to run "gitk --all" in the repository root with no output shown.
+
+Custom actions can be either repository-specific (in which case they are stored in `.git/config`) or global. Below is an example of how a repository-specific actions will appear:
+{{{
+[nbgit "action0"]
+	name = Publish
+	path = /home/fonseca/bin/git
+	args = push github
+	showOutput = true
+	showDirty = true
+	workDirRoot = true
+}}}
