@@ -5,7 +5,7 @@
 
 News about features and issues that have been resolved.
 
-=== nbgit v0.1 ===
+=== nbgit v0.1 (2008-09-10) ===
 
 New features:
 
