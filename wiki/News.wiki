@@ -5,6 +5,12 @@
 
 News about features and issues that have been resolved.
 
+=== nbgit v0.2 (to be released) ===
+
+Resolved issues:
+
+ * Optionally strip spaces a la [http://www.kernel.org/pub/software/scm/git/docs/git-stripspace.html git-stripspace(1)] from commit messages. (issue 8)
+
 === nbgit v0.1 (2008-09-10) ===
 
 New features:
