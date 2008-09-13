@@ -20,6 +20,8 @@ The name and email address can be set via both the options and properties dialog
 
 Some open-source projects require that developers sign off on their patches as a way of showing good faith. If you contribute to such a project, the option to automatically append a Signed-off-by line can be of assistance. The line is inserted if there are no previous commit messages. Values configure via the properties dialog are stored using the name `nbgit.signoff`.
 
+One way to ensure that commit messages are clean and have a uniform format is to strip them of spaces at the end of line and removing consecutive empty lines. This can be done automatically if you enable it either in the module options or configure it via the properties dialog, using the `nbgit.stripspace` option.
+
 === Update Options ===
 
 When reverting a file to a previous version, you can optionally choose to save the modified file using the prefix `.orig`. The default setting can be set in the options dialog and customized in the revert dialog.
