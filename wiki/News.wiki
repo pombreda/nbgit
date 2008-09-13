@@ -9,7 +9,7 @@ News about features and issues that have been resolved.
 
 Resolved issues:
 
- * Optionally strip spaces a la [http://www.kernel.org/pub/software/scm/git/docs/git-stripspace.html git-stripspace(1)] from commit messages. (issue 8)
+ * Optionally strip spaces from commit messages. (issue 8)
 
 === nbgit v0.1 (2008-09-10) ===
 
