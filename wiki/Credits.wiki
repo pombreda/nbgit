@@ -17,7 +17,7 @@ The Mercurial and Subversion code is dual licensed under the Common Development 
 
 JGit is a pure Java implementation of Git. The library is what makes it possible for NbGit to be a truely cross platform, easy-to-install !NetBeans plugin. NbGit's sibling project EGit, an Eclipse plugin, along with the JGit example programs has served as an excellent source of inspiration for working with JGit. Thanks to Robin Rosenberg and Shawn O. Pearce for their comments.
 
-JGit is distributed under a BSD-style license. The license is available in the source repository as `release/modules/ext/org-spearce-jgit.LICENSE.txt. EGit is distributed under the Eclipse Public License v1.0.
+JGit is distributed under a BSD-style license. The license is available in the source repository as `release/modules/ext/org-spearce-jgit.LICENSE.txt`. EGit is distributed under the Eclipse Public License v1.0.
 
  * [http://code.google.com/p/egit/ More info about JGit/EGit]
 
