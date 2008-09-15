@@ -14,8 +14,11 @@ JGit:
 
 Document about the !NetBeans VCS API and standards:
 
+ * http://wiki.netbeans.org/ProjectVersioning
+ * http://wiki.netbeans.org/VersioningSystemIntegration
  * http://wiki.netbeans.org/VCS60APIOverview
  * http://wiki.netbeans.org/VersioningSPIReview97278 
+ * http://vcscore.netbeans.org/doc/commands/sequence.html
  * http://wiki.netbeans.org/MercurialVersionControl
 
 Other !NetBeans resources:
