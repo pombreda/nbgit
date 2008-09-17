@@ -10,7 +10,7 @@ First, read the [CodeVCSIntro introduction to NetBeans VCS modules] and the [Cod
 JGit:
 
  * [http://code.google.com/docreader/#p=egit&s=egit&t=JGitTutorial Tutorial] (work in progress)
- * [http://code.google.com/p/egit/issues/list?can=2&q=component:JGit Issues for JGit] that needs work
+ * [http://code.google.com/p/egit/issues/list?can=2&q=component:JGit Issues for JGit] that need work
  * ... and of course the javadoc which has hints on best practices.
 
 Document about the !NetBeans VCS API and standards:
