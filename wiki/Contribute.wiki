@@ -28,6 +28,16 @@ Other !NetBeans resources:
  * http://wiki.netbeans.org/NetBeansDeveloperFAQ
  * Issue [http://www.netbeans.org/issues/show_bug.cgi?id=142079 142079] and [http://www.netbeans.org/issues/show_bug.cgi?id=143966 143966] on upgrading modules to work in !NetBeans 6.5.
 
+=== Tips ===
+
+==== Java 5 compatibility ====
+
+ * Always test your code with NetBeans running on Java 5 JRE.
+ * When creating new user interfaces via the forms editor remember to edit the `.form` field to request that Java 5 compatible [http://kendes.blogspot.com/2008/03/grouplayout-converting-java-6-to-java-5.html (group) layout] code is used. Update the file header to have:
+{{{
+ <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+}}}
+
 === Contributing Code and Licensing ===
 
 The project contains code with different licenses. Because of this split licensing model *every* file within the project *must* list which license covers it in the header of the file. Any new files *must* clearly indicate which license they are provided under in the file header. Any new contributions to an existing file *must* be submitted under the current license of that file.
