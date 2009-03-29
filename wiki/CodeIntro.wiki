@@ -1,4 +1,5 @@
 #summary Introduction to the code.
+#sidebar DevTableOfContents
 
 = Getting Started with the nbgit Code =
 
