@@ -10,7 +10,7 @@ This introduction will help you get started with coding and contributing by givi
 The code can be divided into the core parts, the UI, resources, and utilities.
 
 *The core code:*
-   The core code does all the dirty work of providing the parts for integrating with !NetBeans (the !GitVCS, !GitAnnotator, and !GitInterceptor classes). It also has support for getting and updating the module wide configurations, such as the name and email users can specify in the _Tools > Options_ dialog. Finally, the core code is where classes (!StatusCache and !StatusInfo) for maintaining and querying status related information are located.
+   The core code does all the dirty work of providing the parts for integrating with !NetBeans (the GitVCS, !GitAnnotator, and !GitInterceptor classes). It also has support for getting and updating the module wide configurations, such as the name and email users can specify in the _Tools > Options_ dialog. Finally, the core code is where classes (!StatusCache and !StatusInfo) for maintaining and querying status related information are located.
 
 *The user interface:*
    The UI code is located in the `.ui` subpackage and contains code that are accessed via actions in the menu.
