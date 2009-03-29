@@ -1,4 +1,5 @@
 #summary Introduction to NetBeans VCS plugins.
+#sidebar DevTableOfContents
 
 = The Interface to !NetBeans =
 
