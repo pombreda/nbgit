@@ -17,6 +17,6 @@ For more information about Git and this plugin visit the following sites:
 
  * [http://repo.or.cz/w/nbgit.git NbGit Gitweb Page]
 
- * [http://www.git-scm.org/ Git Homepage]
+ * [http://www.git-scm.com/ Git Homepage]
 
- * [http://www.git-scm.org/gitwiki/ Git Wiki]
+ * [http://www.git-scm.com/gitwiki/ Git Wiki]
