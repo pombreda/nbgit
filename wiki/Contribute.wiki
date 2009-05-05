@@ -23,6 +23,7 @@ Document about the !NetBeans VCS API and standards:
  * http://wiki.netbeans.org/VersioningSPIReview97278 
  * http://vcscore.netbeans.org/doc/commands/sequence.html
  * http://wiki.netbeans.org/MercurialVersionControl
+ * http://projects.netbeans.org/buildsys/design.html#vcs
 
 Other !NetBeans resources:
 
