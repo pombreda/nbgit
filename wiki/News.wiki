@@ -12,11 +12,13 @@ Comes with JGit updated to v0.3.1-795-g00bc4f1.
 New features:
 
  * Optionally strip spaces from commit messages. (issue 8)
+ * Support for .gitignore files. (issue 3)
 
 Bug fixes:
 
  * Make code compatible with Java 1.5. (issue 22 and issue 21)
  * Update the status cache after creating a repository. (issue 24)
+ * Bundle version utilities with the nbm file. (issue 19)
 
 === nbgit v0.1 (2008-09-10) ===
 
