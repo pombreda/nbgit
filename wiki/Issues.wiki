@@ -9,9 +9,7 @@ The module is far from complete. Below some of the known problems are listed alo
 
 Known issues that are deemed worthy are listed here. Others can be found in the issue tracker.
 
- * No way to ignore files that are not being tracked (issue 3)
-
- * The status information is not always updated correctly (issue 12)
+ * The status information is not always updated correctly. (issue 12)
 
 === Bug Reporting ===
 
