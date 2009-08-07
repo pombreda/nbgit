@@ -7,8 +7,6 @@ News about features and issues that have been resolved.
 
 === nbgit v0.2 (to be released) ===
 
-Comes with JGit updated to v0.3.1-795-g00bc4f1.
-
 New features:
 
  * Optionally strip spaces from commit messages. (issue 8)
