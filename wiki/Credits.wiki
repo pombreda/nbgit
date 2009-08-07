@@ -29,6 +29,10 @@ The SSH transport support in JGit uses JSch. To easy installation the version di
 
 JSch is distributed under a BSD-style license. The license is available in the source repository as `release/modules/ext/com-jcraft-jsch.LICENSE.txt`.
 
+=== OpenBSD fnmatch(3) ===
+
+Support for .gitignore and .git/info/exclude files use a ported version (according to the CVS info v1.13) of OpenBSD's fnmatch code. The code is derived from software contributed to Berkeley by Guido van Rossum and distributed under a BSD-style license.
+
 === Git Icon ===
 
 The Git icon used for "branding" the status and history tabs is made by Henrik Nyh.
