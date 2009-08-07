@@ -21,7 +21,7 @@ JGit is distributed under a BSD-style license. The license is available in the s
 
  * [http://code.google.com/p/egit/ More info about JGit/EGit]
 
- * [http://repo.or.cz/w/egit.git?a=blob;f=org.spearce.jgit/LICENSE;hb=HEAD The specific license for JGit]
+ * [http://repo.or.cz/w/jgit.git?a=blob;f=org.spearce.jgit/LICENSE;hb=HEAD The specific license for JGit]
 
 === JSch ===
 
