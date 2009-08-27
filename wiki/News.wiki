@@ -9,7 +9,7 @@ News about features and issues that have been resolved.
 
 New features:
 
- * Initial support for cloning. (issue 48)
+ * Initial support for cloning; Only git:// protocol is supported for now.(issue 48)
  * Graph visualization of repository history. (issue 1)
  * Check email addresses entered though the properties UI. (issue 4)
 
