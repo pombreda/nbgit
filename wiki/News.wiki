@@ -16,8 +16,8 @@ New features:
 Bug fixes:
 
  * Track changes to and refresh internally cached .gitignore files. (issue 3)
- * Gracefully handle repositories containing submodules (issue 23, issue 33, issue 34)
- * Fix revert of folders/projects (issue 51)
+ * Gracefully handle repositories containing submodules. (issue 23, issue 33, issue 34)
+ * Fix revert when using folder/project selection. (issue 51)
 
 === nbgit v0.2 (2009-08-07) ===
 
