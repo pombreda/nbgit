@@ -35,10 +35,10 @@ git archive --format=zip --prefix=nbgit-X.Y/ HEAD > nbgit-X.Y.zip
    * Merge in `master`.
    * Fix any problems: Usually missing code from the versioning.util module.
    * Commit.
-   * In NetBeans build the .nbm.
+   * In !NetBeans build the .nbm.
    * Rename build/org-nbgit.nbm to nbgit-X.Y.nbm.
 
- * Upload the zip and nbm files to the [http://code.google.com/p/nbgit/downloads/entry download page]. Apply labels about Type, NetBeans version, etc., as well as the *Featured* label.
+ * Upload the zip and nbm files to the [http://code.google.com/p/nbgit/downloads/entry download page]. Apply labels about Type, !NetBeans version, etc., as well as the *Featured* label.
 
 == After the release ==
 
@@ -46,10 +46,10 @@ git archive --format=zip --prefix=nbgit-X.Y/ HEAD > nbgit-X.Y.zip
 
  * The status of issues marked with [http://code.google.com/p/nbgit/issues/list?q=label:FixPending FixPending] are changed to *Fixed*.
 
- * If they do not already exist, create the labels NbGit-X.Y and Milestone-ReleaseX.(Y+1) in [http://code.google.com/p/nbgit/adminIssues the issue tracker].
+ * If they do not already exist, create the labels !NbGit-X.Y and !Milestone-ReleaseX.(Y+1) in [http://code.google.com/p/nbgit/adminIssues the issue tracker].
 
  * Post a release announcement to the Google Group.
 
- * Upload the nbm to [http://plugins.netbeans.org/PluginPortal/faces/PluginDetailPage.jsp?pluginid=13221 the NetBeans Plugin Portal].
+ * Upload the nbm to the NetBeans [http://plugins.netbeans.org/PluginPortal/faces/PluginDetailPage.jsp?pluginid=13221 Plugin Portal].
 
  * Announce the release on other sites: [http://freshmeat.net/projects/nbgit/ Freshmeat].
