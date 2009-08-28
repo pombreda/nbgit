@@ -1,5 +1,6 @@
 #summary Instructions and check list for making a new release.
 #labels Developer
+#sidebar DevTableOfContents
 
 = Howto Release =
 
