@@ -1,6 +1,7 @@
 #summary Table of contents for developer pages
-#labels Docreader
+#labels Docreader,Developer
 
  * [CodeIntro Introduction]
  * [CodeVCSIntro NetBeans VCS Introduction]
+ * [HowtoRelease Howto release]
  * [Source Source Code Repositories]
