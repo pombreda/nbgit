@@ -1,5 +1,6 @@
 #summary Design doc for a task-oriented layer.
 #labels Developer,Design
+#sidebar DevTableOfContents
 
 = Task-oriented layer =
 
