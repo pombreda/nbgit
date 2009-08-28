@@ -5,5 +5,5 @@
  * [CodeVCSIntro NetBeans VCS Introduction]
  * [HowtoRelease Howto release]
  * Design documentation
-   * [DesignDocTaskOrientedLayer Task-oriented layer]
+  * [DesignDocTaskOrientedLayer Task-oriented layer]
  * [Source Source Code Repositories]
