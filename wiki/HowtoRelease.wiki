@@ -1,0 +1,55 @@
+#summary Instructions and check list for making a new release.
+#labels Developer
+
+= Howto Release =
+
+A mostly sequential recipe of the actions involved in forging a new release. 
+
+== Before releasing ==
+
+ * Run the test suite and test general use cases: initialization, status, commit, etc.
+
+ * Update the [News] page to mention noteworthy changes. It should list the fixed issues, which have the [http://code.google.com/p/nbgit/issues/list?q=label:Milestone-ReleaseX.Y.
+
+ * Synchronize javahelp files with wiki pages, i.e. [News] and [http://code.google.com/p/nbgit/w/list?q=label:Manual Manual] pages. Commit.
+
+== The release ==
+
+ * Update the version number and commit. The list of files include:
+   * `manifest.mf`
+   * `settings.xml` and `wstcref.xml` in `src/org/nbgit/resources`
+
+ * Tag the commit:
+{{{
+git tag -s nbgit-X.Y
+}}}
+ The message title should read something like `nbgit X.Y`. Optionally, include the list of noteworthy changes in the message body.
+
+ * Create a zip file:
+{{{
+git archive --format=zip --prefix=nbgit-X.Y/ HEAD > nbgit-X.Y.zip
+}}}
+
+ * Build a .nbm file with reduced dependencies:
+   * Update and checkout the [http://github.com/jonas/nbgit/tree/jf/versioning-util jf/versioning-util] branch
+   * Merge in `master`.
+   * Fix any problems: Usually missing code from the versioning.util module.
+   * Commit.
+   * In NetBeans build the .nbm.
+   * Rename build/org-nbgit.nbm to nbgit-X.Y.nbm.
+
+ * Upload the zip and nbm files to the [http://code.google.com/p/nbgit/downloads/entry download page]. Apply labels about Type, NetBeans version, etc., as well as the *Featured* label.
+
+== After the release ==
+
+ * Remove Feature label from downloads related to the previous release.
+
+ * The status of issues marked with [http://code.google.com/p/nbgit/issues/list?q=label:FixPending FixPending] are changed to *Fixed*.
+
+ * If they do not already exist, create the labels NbGit-X.Y and Milestone-ReleaseX.(Y+1) in [http://code.google.com/p/nbgit/adminIssues the issue tracker].
+
+ * Post a release announcement to the Google Group.
+
+ * Upload the nbm to [http://plugins.netbeans.org/PluginPortal/faces/PluginDetailPage.jsp?pluginid=13221 the NetBeans Plugin Portal].
+
+ * Announce the release on other sites: [http://freshmeat.net/projects/nbgit/ Freshmeat].
