@@ -9,7 +9,7 @@ A mostly sequential recipe of the actions involved in forging a new release.
 
  * Run the test suite and test general use cases: initialization, status, commit, etc.
 
- * Update the [News] page to mention noteworthy changes. It should list the fixed issues, which have the [http://code.google.com/p/nbgit/issues/list?q=label:Milestone-ReleaseX.Y.
+ * Update the [News] page to mention noteworthy changes. It should list the fixed issues, labeled with [http://code.google.com/p/nbgit/issues/list?q=label:Milestone-ReleaseX.Y Milestone-ReleaseX.Y].
 
  * Synchronize javahelp files with wiki pages, i.e. [News] and [http://code.google.com/p/nbgit/w/list?q=label:Manual Manual] pages. Commit.
 
