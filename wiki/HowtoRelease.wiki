@@ -18,7 +18,7 @@ A mostly sequential recipe of the actions involved in forging a new release.
 
  * Update the version number and commit. The list of files include:
    * `manifest.mf`
-   * `settings.xml` and `wstcref.xml` in `src/org/nbgit/resources`
+   * `src/org/nbgit/resources/settings.xml`
 
  * Tag the commit:
 {{{
