@@ -14,7 +14,7 @@ A mostly sequential recipe of the actions involved in forging a new release for 
 
  * Synchronize javahelp files with wiki pages, i.e. [News] and [http://code.google.com/p/nbgit/w/list?q=label:Manual Manual] pages. Commit.
 
- * Go through [http://code.google.com/p/nbgit/issues/list?q=label:Milestone-ReleaseX.Y the issues] targeted the release. Retarget [http://code.google.com/p/nbgit/issues/list?can=2&q=label:Milestone-ReleaseX.Y+-status:FixPending any issues] which will not be fixed in this released.
+ * Go through [http://code.google.com/p/nbgit/issues/list?q=label:Milestone-ReleaseX.Y the issues] assigned to the release. Retarget [http://code.google.com/p/nbgit/issues/list?can=2&q=label:Milestone-ReleaseX.Y+-status:FixPending any issues] which will not be fixed in this released.
 
 == The release ==
 
