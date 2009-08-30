@@ -4,7 +4,7 @@
 
 = Howto Release =
 
-A mostly sequential recipe of the actions involved in forging a new release. 
+A mostly sequential recipe of the actions involved in forging a new release for version X.Y. 
 
 == Before releasing ==
 
@@ -13,6 +13,8 @@ A mostly sequential recipe of the actions involved in forging a new release.
  * Update the [News] page to mention noteworthy changes. It should list the fixed issues, labeled with [http://code.google.com/p/nbgit/issues/list?q=label:Milestone-ReleaseX.Y Milestone-ReleaseX.Y].
 
  * Synchronize javahelp files with wiki pages, i.e. [News] and [http://code.google.com/p/nbgit/w/list?q=label:Manual Manual] pages. Commit.
+
+ * Go through [http://code.google.com/p/nbgit/issues/list?q=label:Milestone-ReleaseX.Y the issues] targeted the release. Retarget [http://code.google.com/p/nbgit/issues/list?can=2&q=label:Milestone-ReleaseX.Y+-status:FixPending any issues] which will not be fixed in this released.
 
 == The release ==
 
