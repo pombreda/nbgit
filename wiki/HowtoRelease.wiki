@@ -49,7 +49,7 @@ git archive --format=zip --prefix=nbgit-X.Y/ HEAD > nbgit-X.Y.zip
 
  * The status of issues marked with [http://code.google.com/p/nbgit/issues/list?q=label:FixPending FixPending] are changed to *Fixed*.
 
- * If they do not already exist, create the labels !NbGit-X.Y and !Milestone-ReleaseX.(Y+1) in [http://code.google.com/p/nbgit/adminIssues the issue tracker].
+ * If they do not already exist, create the labels !NbGit-X.Y and Milestone-ReleaseX.(Y+1) in [http://code.google.com/p/nbgit/adminIssues the issue tracker].
 
  * Post a release announcement to the Google Group.
 
