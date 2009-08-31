@@ -28,6 +28,7 @@ To install from source first get the source code either from a git repository or
 
 Then follow these steps:
 
+ # Clone the repository or unpack the archive, depending on how you choose to get the source.
  # Open the project using the _File > Open Project_ wizard.
  # Optionally but highly recommended, right click on the nbgit project and select _Run_ to test the plugin.
  # Right click on the nbgit project and select _Install/Reload in Development IDE_.
