@@ -41,6 +41,8 @@ git archive --format=zip --prefix=nbgit-X.Y/ HEAD > nbgit-X.Y.zip
    * In !NetBeans build the .nbm.
    * Rename build/org-nbgit.nbm to nbgit-X.Y.nbm.
 
+ * Push the nbgit-X.Y tag and associated commit.
+
  * Upload the zip and nbm files to the [http://code.google.com/p/nbgit/downloads/entry download page]. Apply labels about Type, !NetBeans version, etc., as well as the *Featured* label.
 
 == After the release ==
