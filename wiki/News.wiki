@@ -5,7 +5,7 @@
 
 News about features and issues that have been resolved.
 
-=== nbgit master ===
+=== nbgit v0.3 (2009-08-30) ===
 
 New features:
 
