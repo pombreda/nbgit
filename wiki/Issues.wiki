@@ -1,5 +1,6 @@
 #summary Issues and Bug Reporting
 #labels Manual
+#sidebar TableOfContents
 
 = Issues and Bug Reporting =
 
