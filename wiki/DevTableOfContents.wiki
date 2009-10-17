@@ -2,6 +2,7 @@
 #labels Docreader,Developer
 
  * [CodeIntro Introduction]
+ * [Contribute Contributing]
  * [CodeVCSIntro NetBeans VCS Introduction]
  * [HowtoRelease Howto release]
  * Design documentation
