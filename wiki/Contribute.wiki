@@ -1,5 +1,6 @@
 ﻿#summary Developer resources and how to contribute code
 #labels Featured
+#sidebar DevTableOfContents
 
 So you want to contribute? Below are some useful resources of where to start and what to consider before submitting your changes.
 
