@@ -1,5 +1,6 @@
 #summary Attributes to used third-party components.
 #labels Manual,Featured
+#sidebar TableOfContents
 
 = Credits and Legal Notes =
 
