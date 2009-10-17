@@ -1,5 +1,6 @@
 #summary How to configure nbgit.
 #labels Manual
+#sidebar TableOfContents
 
 This section documents the various options that control how git works. All the options are configurable via either the _Tools > Options_ dialog (referred to as the _options dialog_) or the _Git > Properties_ dialog (referred to as the _properties dialog_). The options dialog is generally where default values can be set, and the properties dialog allows repository-specific values to be configured. Repository-specific values are stored in each repositoriy's configuration file (`.git/config`).
 
