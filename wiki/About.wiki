@@ -1,5 +1,6 @@
 #summary Project information about Git and NbGit.
 #labels Manual,Featured
+#sidebar TableOfContents
 
 = About Git =
 
