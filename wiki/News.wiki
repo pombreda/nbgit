@@ -1,5 +1,6 @@
 ﻿#summary Information about releases.
 #labels Manual,Featured
+#sidebar TableOfContents
 
 = Release Notes =
 
