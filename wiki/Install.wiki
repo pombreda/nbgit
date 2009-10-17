@@ -1,5 +1,6 @@
 #summary Instruction on how to install and update the plugin
 #labels Manual,Featured
+#sidebar TableOfContents
 
 = Installing and Updating =
 
