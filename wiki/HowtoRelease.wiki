@@ -34,7 +34,7 @@ git archive --format=zip --prefix=nbgit-X.Y/ HEAD > nbgit-X.Y.zip
 }}}
 
  * Build a .nbm file with reduced dependencies:
-   * Update and checkout the [http://github.com/jonas/nbgit/tree/jf/versioning-util jf/versioning-util] branch
+   * Update and checkout the [http://github.com/jonas/nbgit/tree/release release] branch
    * Merge in `master`.
    * Fix any problems: Usually missing code from the versioning.util module.
    * Commit.
