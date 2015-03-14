@@ -1,0 +1,37 @@
+# The Interface to NetBeans #
+
+Below the parts of the module responsible for interfacing with NetBeans are presented. It also covers how the module hooks into NetBeans. If you are already familiar with NetBeans versioning plugins you can skip this section.
+
+The NetBeans versioning layer is comprised of two modules:
+
+`org.netbeans.modules.versioning.spi`:
+> a service provider interface (SPI) module with classes VCS modules can extend and use and,
+
+`org.netbeans.modules.versioning.util`:
+> a utility module with helpers for doing basic tasks.
+
+## The Current State (VCSContext) ##
+
+The SPI module makes heavy use of `java.io.File` class as a pointer to resources, especially for representing the current state or context that the VCS module should work on. A context is given in the VCSContext class, which contains information about the particular files and directories that are of interest. For the context menu shown when a user right clicks in the _Projects_ window the context will contain the file or directory which has been selected. This allows for example the status view to only show the files the user are interested in.
+
+## The Main Entry Point (VersioningSystem) ##
+
+The VCS module provides a class which has some basic utility functions, such as resolving a File instance into the File of the repository that manages it (getTopmostManagedAncestor) and getting the last original version of a file in the working tree for showing diffs in the editor (getOriginalFile). It also provides getters for the classes VCSAnnotator and VCSIntercepter.
+
+GitVCS is the class in nbgit serving as the main entry point. It extends the VersioningSystem. The module points to this class from the `META-INF/services/org.netbeans.modules.versioning.spi.VersioningSystem` file in the source directory.
+
+## Intercepting File Operations (VCSInterceptor) ##
+
+The VCSIntercepter is where the VCS module gets information about files being added, deleted, moved or modified. There are hooks called before and after these actions and the VCS module can even insist that it should carry out the delete or move action.
+
+This functionality is exposed via GitInterceptor, which extends VCSIntercepter.
+
+## Annotations of File Names and Icons (VCSAnnotator) ##
+
+The annotator class (GitAnnotator) is responsible for decorating names (annotateName) and icons (annotateIcon) related to files in the NetBeans UI. Given the current file name or icon and a VCSContext it can use the context to check what the status of the file is and use this information to generate a HTML string with formatting information. For example, the annotator will return string that specifies that the name should be blue for a modified file. Similarly for icons it can decorate the icon passed to the annotator by overlaying a second "badge" icon and merging the two icons together. This is used for visualizing which directories contain modified files or files with conflicts.
+
+The annotator also provides an accessor for getting the actions (getActions) the VCS module supports. NetBeans uses this information for creating the main and context menus for the VCS module. For every new VCS context (new files selected etc.) the IDE will ask again for the actions. This way actions can know about the VCS context and can check whether they should be enabled or blurred out.  For example the initialize action will check if any of the files selected (in the VCS context) are already managed by a git repository, commit will check if any of the files chosen or files in directories chosen have added, deleted or modified files.
+
+## Other Exposed Interfaces ##
+
+The remaining parts of integrating with the NetBeans IDE is done via a layer file found in `resources/layer.xml`. This file specifies how the module should be represented in the NetBeans user interface. For example it contains information about the JavaHelp documentation the module provides and where in the NetBeans option dialog the module options should appear.

@@ -1,0 +1,41 @@
+# Credits and Legal Notes #
+
+Below credits are given to third-party components that the NbGit module uses. Here you will also find information about their individual terms of licensing.
+
+### The Mercurial plugin ###
+
+Most of the core plugin code in NbGit is based on code from the Mercurial and Subversion plugins.
+
+The Mercurial and Subversion code is dual licensed under the Common Development and Distribution License("CDDL") and the GNU General Public License Version 2 only ("GPL") with the "Classpath" exception.
+
+  * [The CDDL and GPLv2 license](http://www.netbeans.org/cddl-gplv2.html)
+
+### JGit / EGit ###
+
+JGit is a pure Java implementation of Git. The library is what makes it possible for NbGit to be a truely cross platform, easy-to-install NetBeans plugin. NbGit's sibling project EGit, an Eclipse plugin, along with the JGit example programs has served as an excellent source of inspiration for working with JGit. Thanks to Robin Rosenberg and Shawn O. Pearce for their comments.
+
+JGit is distributed under a BSD-style license. The license is available in the source repository as `release/modules/ext/org-spearce-jgit.LICENSE.txt`. EGit is distributed under the Eclipse Public License v1.0.
+
+  * [More info about JGit/EGit](http://code.google.com/p/egit/)
+
+  * [The specific license for JGit](http://repo.or.cz/w/jgit.git?a=blob;f=org.spearce.jgit/LICENSE;hb=HEAD)
+
+### JSch ###
+
+The SSH transport support in JGit uses JSch. To easy installation the version distributed with the JGit/EGit project is included in this project. However, NetBeans seem to include its own JSch jar file so it might be possible to remove this dependency in the future.
+
+JSch is distributed under a BSD-style license. The license is available in the source repository as `release/modules/ext/com-jcraft-jsch.LICENSE.txt`.
+
+### OpenBSD fnmatch(3) ###
+
+Support for .gitignore and .git/info/exclude files use a ported version (according to the CVS info v1.13) of OpenBSD's fnmatch code. The code is derived from software contributed to Berkeley by Guido van Rossum and distributed under a BSD-style license.
+
+### Git Icon ###
+
+The Git icon used for "branding" the status and history tabs is made by Henrik Nyh.
+
+Regarding license, the blog post that announced this alternative logo for Git states that anyone is "Free to modify and redistribute with due credit, and obviously free to use".
+
+  * [The blog post announcing the alternative logo](http://henrik.nyh.se/2007/06/alternative-git-logo-and-favicon/)
+
+  * [Other versions and git related logos](http://git.or.cz/gitwiki/GitRelatedLogos)

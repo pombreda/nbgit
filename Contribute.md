@@ -1,0 +1,61 @@
+﻿#summary Developer resources and how to contribute code
+#labels Featured
+#sidebar DevTableOfContents
+
+So you want to contribute? Below are some useful resources of where to start and what to consider before submitting your changes.
+
+
+
+# Developer Resources #
+
+First, read the [introduction to NetBeans VCS modules](CodeVCSIntro.md) and the [introduction to the code](CodeIntro.md).
+
+JGit:
+
+  * [Tutorial](http://code.google.com/docreader/#p=egit&s=egit&t=JGitTutorial) (work in progress)
+  * [Issues for JGit](http://code.google.com/p/egit/issues/list?can=2&q=component:JGit) that need work
+  * ... and of course the javadoc which has hints on best practices.
+
+Document about the NetBeans VCS API and standards:
+
+  * http://wiki.netbeans.org/ProjectVersioning
+  * http://wiki.netbeans.org/VersioningSystemIntegration
+  * http://wiki.netbeans.org/VCS60APIOverview
+  * http://wiki.netbeans.org/VersioningSPIReview97278
+  * http://vcscore.netbeans.org/doc/commands/sequence.html
+  * http://wiki.netbeans.org/MercurialVersionControl
+  * http://projects.netbeans.org/buildsys/design.html#vcs
+
+Other NetBeans resources:
+
+  * The [top voted](http://qa.netbeans.org/bugzilla/dashboards/top-voted.html) ["Git VCS support"](http://www.netbeans.org/issues/show_bug.cgi?id=131531) issue
+  * http://wiki.netbeans.org/NetBeansDeveloperFAQ
+  * Issue [142079](http://www.netbeans.org/issues/show_bug.cgi?id=142079) and [143966](http://www.netbeans.org/issues/show_bug.cgi?id=143966) on upgrading modules to work in NetBeans 6.5.
+
+# Tips #
+
+## Java 5 compatibility ##
+
+  * Always test your code with NetBeans running on Java 5 JRE.
+  * When creating new user interfaces via the forms editor remember to edit the `.form` field to request that Java 5 compatible [(group) layout](http://kendes.blogspot.com/2008/03/grouplayout-converting-java-6-to-java-5.html) code is used. Update the file header to have:
+```
+ <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="2"/>
+```
+
+# Contributing Code and Licensing #
+
+The project contains code with different licenses. Because of this split licensing model **every** file within the project **must** list which license covers it in the header of the file. Any new files **must** clearly indicate which license they are provided under in the file header. Any new contributions to an existing file **must** be submitted under the current license of that file.
+
+Furthermore, to improve tracking of who did what and make it clear that you have verified that you are legally allowed and willing to submit your changes under the license covering each file, you should sign-off your changes. The sign-off is a simple line at the end of the explanation for the patch, which certifies that you wrote it or otherwise have the right to contribute it under the license stated in the patch or the files being changed. The rules are pretty simple: if you can certify the _Developer's Certificate of Origin 1.1_ listed below then you just add a line saying
+```
+Signed-off-by: Random J Developer <devrandom@example.org>
+```
+
+**_Developer's Certificate of Origin 1.1_**
+
+By making a contribution to this project, I certify that:
+
+  1. The contribution was created in whole or in part by me and I have the right to submit it under the open source license indicated in the file; or
+  1. The contribution is based upon previous work that, to the best of my knowledge, is covered under an appropriate open source license and I have the right under that license to submit that work with modifications, whether created in whole or in part by me, under the same open source license (unless I am permitted to submit under a different license), as indicated in the file; or
+  1. The contribution was provided directly to me by some other person who certified 1., 2. or 3. and I have not modified it.
+  1. I understand and agree that this project and the contribution are public and that a record of the contribution (including all  personal information I submit with it, including my sign-off) is maintained indefinitely and may be redistributed consistent with this project or the open source license(s) involved.

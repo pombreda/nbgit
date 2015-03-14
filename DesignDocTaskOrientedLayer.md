@@ -1,0 +1,42 @@
+# Task-oriented layer #
+
+| Note this document is still a work in progress |
+|:-----------------------------------------------|
+
+## Problem ##
+
+Currently, the module code integrates with the JGit library throughout the codebase. This makes it hard to test interoperability, makes it harder to upgrade, and potentially leads to code duplication.
+
+In addition, since nbgit was ported to JGit most of the code integrating with JGit has lived in the GitCommand class, which was historically used for calling out to the shell. In face of [issue 20](https://code.google.com/p/nbgit/issues/detail?id=20), parts of this code needs some major rework.
+
+Finally, from an user interface standpoint these tasks should optimally be performed in their own thread. This is currently done via wrapping calls to GitCommand and others in GitProgressSupport instances, which are then submitted to the per repository RequestProcessor. This works well and ensures that the module does not concurrently access the same repository. However, the current code is rather verbose and leads to duplicate Bundle strings etc.
+
+## Task-oriented layer ##
+
+The basic idea is that many of the tasks or operations related to working on the repository can in some way be composed of a small limited set of basic tasks. To give an example, cloning can be composed by the tasks: init (to create a repository), configure (to add remote configuration), fetch, and checkout (to populate the working directory).
+
+Another meaning of task-oriented is that all the operations associated with a task should be run in the background in such a way that it is ensured that two task does not access the same repository concurrently. The former means that it should be possible to first configured a task after which it can be run in a separate thread. The latter means that the execution of a task relies on what other operations currently are currently queued or operating on the same the repository. The RequestProcessor is a great fit for this, and it would good to make it much easier to get this right in the code by providing utilities for running the created tasks.
+
+The creation and composition of tasks suggest the use of the builder pattern. However, the builder should expose enough information to allow composition and support the requirements needed for configuration at the call site. This can be done via a TaskController.
+
+### Identified basic tasks ###
+
+Loosely modeled after git-core's plumbing tools.
+
+  * init: creates an empty repository
+  * configure: updates a repository configuration
+  * fetch: download data from remote repository and update remote references
+  * push: upload data to remote repository and update remote references
+  * checkout: populate the working directory from a snapshot
+  * merge-file: integrate changes made in two versions of a file
+  * status: compare working directory with index and tree of HEAD
+  * update-ref: update a branch or remote reference
+  * update-index: add, update, or remove file in/from index
+  * commit-tree: update index and create new commit, tree, and blob objects
+
+### Composed tasks ###
+
+  * clone: init, configure, fetch, checkout
+  * commit: update-index, commit-tree
+  * merge: merge-file, update-index, commit
+  * pull: fetch, merge, update-ref, checkout
